@@ -1,0 +1,55 @@
+[
+  {
+    "id": "help-301",
+    "author_id": "user-demo-ananya",
+    "title": "Segmentation fault in C linked list deletion function",
+    "description": "I am trying to delete a node given a key in a singly linked list in C. My program compiles but segfaults whenever the key is at the head node. Can someone review my pointer traversal?",
+    "subject": "Programming in C",
+    "tags": ["c", "pointers", "data-structures", "segfault"],
+    "is_solved": true,
+    "replies": [
+      {
+        "id": "rep-301-1",
+        "author_id": "user-demo-priya",
+        "message": "When deleting the head node, you need to update the head pointer itself (`*head_ref = temp->next; free(temp);`). Check if you are passing the pointer by value instead of pointer to pointer (`Node**`).",
+        "created_at": "2026-10-18T17:05:00Z"
+      },
+      {
+        "id": "rep-301-2",
+        "author_id": "user-demo-ananya",
+        "message": "Thank you Priya! Passing `Node** head` completely fixed the segfault.",
+        "created_at": "2026-10-18T17:20:00Z"
+      }
+    ],
+    "created_at": "2026-10-18T16:50:00Z"
+  },
+  {
+    "id": "help-302",
+    "author_id": "user-demo-rohit",
+    "title": "How to resolve Git merge conflict with upstream main?",
+    "description": "I forked Campus Buddy and made changes in my branch, but when attempting a git pull upstream main I get conflicts in package.json. What is the safest way to rebase cleanly without losing commits?",
+    "subject": "Git & Open Source",
+    "tags": ["git", "github", "merge-conflict", "hacktoberfest"],
+    "is_solved": false,
+    "replies": [
+      {
+        "id": "rep-302-1",
+        "author_id": "user-arnav-admin",
+        "message": "Run `git stash` if you have untracked changes, then `git fetch upstream`, followed by `git rebase upstream/main`. Open VS Code to choose 'Accept Current Change' or 'Incoming Change' in the conflicted file, then `git add package.json` and `git rebase --continue`.",
+        "created_at": "2026-10-19T09:12:00Z"
+      }
+    ],
+    "created_at": "2026-10-19T08:50:00Z"
+  },
+  {
+    "id": "help-303",
+    "author_id": "user-demo-dev",
+    "title": "Need help understanding Mohr's Circle sign conventions for shear stress",
+    "description": "In Strength of Materials, I keep getting inverted principal stress angles because of shear stress clockwise/counter-clockwise conventions. Which standard does Bennett University follow for mid-terms?",
+    "subject": "Mechanics of Materials",
+    "tags": ["mechanical", "stress-analysis", "mohrs-circle"],
+    "is_solved": false,
+    "replies": [],
+    "created_at": "2026-10-20T11:30:00Z"
+  }
+]

@@ -1,0 +1,378 @@
+[
+  {
+    "id": 1,
+    "title": "fix(ui): Navbar links overflow on mobile devices without hamburger toggle",
+    "description": "On smaller screen viewports (mobile phones), the navigation links in the header stretch horizontally off the screen with no hamburger toggle or mobile drawer menu.",
+    "file_path": "components/Navbar.js",
+    "how_to_verify": "Resize your browser window to mobile width (<640px). The navbar should display a clean hamburger menu button that opens a mobile navigation drawer or dropdown.",
+    "labels": ["good first issue", "easy", "ui", "bug"]
+  },
+  {
+    "id": 2,
+    "title": "fix(a11y): Insufficient color contrast on post card branch and semester text",
+    "description": "The branch and semester metadata on study post cards uses text-stone-400 on white backgrounds, failing WCAG 2.1 AA accessibility contrast standards.",
+    "file_path": "components/PostCard.js",
+    "how_to_verify": "Run an accessibility contrast audit or check with Chrome DevTools. The metadata text should have at least a 4.5:1 contrast ratio against the card background.",
+    "labels": ["good first issue", "easy", "ui", "accessibility"]
+  },
+  {
+    "id": 3,
+    "title": "fix(ui): Inconsistent button styles across Feed and Help Board modals",
+    "description": "Buttons in the modal forms use differing padding, font weights, and border radiuses. Standardize them to use the defined button classes in globals.css.",
+    "file_path": "app/feed/page.js",
+    "how_to_verify": "Compare buttons across the feed sharing modal and help board ask modal. Both should have consistent padding, border styles, and hover states.",
+    "labels": ["easy", "ui"]
+  },
+  {
+    "id": 4,
+    "title": "feat(ui): Add dark mode theme support with Tailwind",
+    "description": "The application currently only supports light mode. Add dark mode classes and a theme toggle button in the navigation bar using Tailwind's dark variant.",
+    "file_path": "app/layout.js",
+    "how_to_verify": "Toggle the theme button in the header. The application background, card surfaces, and text colors should switch smoothly to dark mode tones.",
+    "labels": ["medium", "feature", "ui"]
+  },
+  {
+    "id": 5,
+    "title": "fix(ui): Footer does not stick to bottom on pages with short content",
+    "description": "On pages with little content (like an empty search or 404), the footer floats in the middle of the screen instead of sticking to the bottom of the viewport.",
+    "file_path": "components/Footer.js",
+    "how_to_verify": "Open a page with short content. The footer should sit anchored at the bottom edge of the browser viewport.",
+    "labels": ["good first issue", "easy", "ui", "bug"]
+  },
+  {
+    "id": 6,
+    "title": "fix(ui): Replace placeholder SVG emoji favicon with custom GDG brand icon",
+    "description": "The site favicon is currently a placeholder emoji. Replace it with a dedicated Bennett University or GDG On Campus SVG / ICO favicon.",
+    "file_path": "app/layout.js",
+    "how_to_verify": "Inspect the browser tab icon. It should display a crisp, custom vector brand icon.",
+    "labels": ["good first issue", "easy", "ui"]
+  },
+  {
+    "id": 7,
+    "title": "fix(ui): Show student initials fallback when avatar image is missing",
+    "description": "When a student profile lacks an avatar image, the avatar renders as a blank gray circle. It should render the student's capitalized initials (e.g., 'AK' for Arnav Katyal).",
+    "file_path": "components/Navbar.js",
+    "how_to_verify": "Sign in as a user with no avatar or test an empty avatar URL. The avatar container should display their uppercase initials on a colored background.",
+    "labels": ["easy", "ui", "bug"]
+  },
+  {
+    "id": 8,
+    "title": "fix(docs): Fix typo 'Calender' on Events page heading",
+    "description": "The Events page title incorrectly spells Calendar as 'Calender'.",
+    "file_path": "app/events/page.js",
+    "how_to_verify": "Visit the /events route. The heading should read 'Campus Events & Calendar'.",
+    "labels": ["good first issue", "easy", "docs", "bug"]
+  },
+  {
+    "id": 9,
+    "title": "fix(docs): Fix typo 'Reserverations' on Event details page",
+    "description": "On the event details page, the registration count displays the misspelled word 'Reserverations'.",
+    "file_path": "app/events/[id]/page.js",
+    "how_to_verify": "Navigate to an event detail page. The counter card should read 'Current Reservations'.",
+    "labels": ["good first issue", "easy", "docs", "bug"]
+  },
+  {
+    "id": 10,
+    "title": "fix(docs): Fix typo 'desciption' in Help Board form label",
+    "description": "The question submission modal on the Help Board has a typo in the label: 'Problem desciption'.",
+    "file_path": "app/help/page.js",
+    "how_to_verify": "Open the 'Ask a Question' modal on /help. The textarea label should read 'Problem description *'.",
+    "labels": ["good first issue", "easy", "docs", "bug"]
+  },
+  {
+    "id": 11,
+    "title": "fix(docs): Fix typo 'Informaton' in Useful Contacts header",
+    "description": "The Useful Contacts page title displays 'Useful Campus Contacts & Informaton'.",
+    "file_path": "app/contacts/page.js",
+    "how_to_verify": "Navigate to /contacts. The heading should correctly read 'Useful Campus Contacts & Information'.",
+    "labels": ["good first issue", "easy", "docs", "bug"]
+  },
+  {
+    "id": 12,
+    "title": "fix(docs): Fix typo 'Catagories' in Feed filter dropdown label",
+    "description": "The category dropdown filter on the Study Feed is labeled 'Catagories'.",
+    "file_path": "app/feed/page.js",
+    "how_to_verify": "Visit /feed. The fourth filter label should read 'Categories'.",
+    "labels": ["good first issue", "easy", "docs", "bug"]
+  },
+  {
+    "id": 13,
+    "title": "fix(docs): Fix typo 'Semseter' on Student Profile page",
+    "description": "The user profile subtitle incorrectly prints 'Semseter' instead of 'Semester'.",
+    "file_path": "app/u/[id]/page.js",
+    "how_to_verify": "Navigate to any student profile. The subtitle should read 'Branch: CSE • Semester 3'.",
+    "labels": ["good first issue", "easy", "docs", "bug"]
+  },
+  {
+    "id": 14,
+    "title": "fix(docs): Fix typo 'comunity rules' in Campus Lounge banner",
+    "description": "The community rules banner in the Campus Lounge chat contains the typo 'comunity'.",
+    "file_path": "app/chat/page.js",
+    "how_to_verify": "Visit /chat. The banner title should read 'Campus Lounge community rules'.",
+    "labels": ["good first issue", "easy", "docs", "bug"]
+  },
+  {
+    "id": 15,
+    "title": "fix(ui): Inconsistent heading capitalization on Study Feed",
+    "description": "The Study Feed page uses lowercase 'student study feed' while other pages use Title Case.",
+    "file_path": "app/feed/page.js",
+    "how_to_verify": "The heading on /feed should read 'Student Study Feed' matching other section headings.",
+    "labels": ["good first issue", "easy", "docs", "ui"]
+  },
+  {
+    "id": 16,
+    "title": "docs: Fix typographical errors in README.md and complete the local Supabase section",
+    "description": "The main README contains small typos and has an incomplete bullet point under the Supabase setup section.",
+    "file_path": "README.md",
+    "how_to_verify": "Review README.md. All sentences should be grammatically sound and the local setup instructions complete.",
+    "labels": ["good first issue", "easy", "docs"]
+  },
+  {
+    "id": 17,
+    "title": "fix(a11y): Missing descriptive alt text on avatar and post images",
+    "description": "Avatar and resource preview images have empty or missing alt attributes, impairing screen reader navigation.",
+    "file_path": "components/PostCard.js",
+    "how_to_verify": "All <img> elements should have descriptive alt text such as alt={`${author.name}'s avatar`}.",
+    "labels": ["good first issue", "easy", "accessibility"]
+  },
+  {
+    "id": 18,
+    "title": "fix(a11y): Form inputs lack programmatic labels with htmlFor and id",
+    "description": "Form input elements in the Help Board modal lack matching id and htmlFor attributes on their labels.",
+    "file_path": "app/help/page.js",
+    "how_to_verify": "Clicking any form label should immediately move keyboard focus into its corresponding input field.",
+    "labels": ["easy", "accessibility"]
+  },
+  {
+    "id": 19,
+    "title": "fix(a11y): Form inputs remove focus outlines without accessible focus rings",
+    "description": "Several text inputs specify focus:outline-none without providing an accessible replacement focus ring for keyboard navigation.",
+    "file_path": "app/feed/page.js",
+    "how_to_verify": "Tab through the input fields using the Tab key. Each focused field should have an obvious, high-contrast focus ring.",
+    "labels": ["easy", "accessibility"]
+  },
+  {
+    "id": 20,
+    "title": "fix(a11y): Replace clickable report div with semantic button element",
+    "description": "The report action on study post cards uses an onClick on a plain <div> instead of an accessible <button> element with keyboard support.",
+    "file_path": "components/PostCard.js",
+    "how_to_verify": "You should be able to tab to the report action and trigger it using the Enter or Space key.",
+    "labels": ["good first issue", "easy", "accessibility", "bug"]
+  },
+  {
+    "id": 21,
+    "title": "fix(logic): Make Study Feed keyword search case-insensitive",
+    "description": "Search queries currently use exact case matching in lib/db.js (post.title.includes(search)), which fails to match lowercase searches against capitalized titles.",
+    "file_path": "lib/db.js",
+    "how_to_verify": "Searching for 'operating' on /feed should successfully return 'Operating Systems End-Term PYQs'.",
+    "labels": ["medium", "bug"]
+  },
+  {
+    "id": 22,
+    "title": "fix(logic): Sort events chronologically with upcoming events first",
+    "description": "Events are currently sorted oldest-first with past events mixed in. Sort them so upcoming events appear first, and filter out past events by default.",
+    "file_path": "lib/db.js",
+    "how_to_verify": "Events with dates closest to today should appear at the top of /events.",
+    "labels": ["medium", "bug"]
+  },
+  {
+    "id": 23,
+    "title": "fix(ui): Format raw ISO date strings into friendly localized dates",
+    "description": "Post cards and event dates display raw timestamps like '2026-10-25T17:30:00Z' instead of human-friendly formats like 'Oct 25, 2026 • 5:30 PM'.",
+    "file_path": "components/PostCard.js",
+    "how_to_verify": "Post cards and events should display clean, localized date strings.",
+    "labels": ["easy", "bug", "ui"]
+  },
+  {
+    "id": 24,
+    "title": "fix(ui): Optimistically update upvote count when toggling upvote button",
+    "description": "Clicking the upvote button toggles the button highlight but does not increment or decrement the visible upvote counter until page refresh.",
+    "file_path": "components/PostCard.js",
+    "how_to_verify": "Clicking upvote on a post card should immediately increase the displayed counter by 1 without refreshing.",
+    "labels": ["medium", "bug", "ui"]
+  },
+  {
+    "id": 25,
+    "title": "feat(ui): Add friendly empty-state illustration when feed filters match no posts",
+    "description": "When filters or search results match zero posts, the feed displays blank empty space. It should display a clear empty-state message with a 'Clear Filters' button.",
+    "file_path": "app/feed/page.js",
+    "how_to_verify": "Filter by a branch with no posts. An empty state card with 'No materials found' and a reset button should appear.",
+    "labels": ["easy", "ui", "feature"]
+  },
+  {
+    "id": 26,
+    "title": "feat(ui): Add loading spinner and disable state to post and question forms",
+    "description": "When publishing a post or question, there is no loading animation on the submit button, leaving users uncertain if the request is processing.",
+    "file_path": "app/feed/page.js",
+    "how_to_verify": "Submitting a new study material should show a subtle loading spinner and disabled state on the publish button.",
+    "labels": ["easy", "ui"]
+  },
+  {
+    "id": 27,
+    "title": "fix(ui): Persist feed filters in URL search query parameters",
+    "description": "Feed filters currently reset whenever the user refreshes the page or navigates away. Store filter state in URL search parameters (e.g. ?branch=CSE&type=notes).",
+    "file_path": "app/feed/page.js",
+    "how_to_verify": "Select a branch and semester filter on /feed, then refresh the browser. The filters should remain selected.",
+    "labels": ["medium", "bug"]
+  },
+  {
+    "id": 28,
+    "title": "fix(ui): Display specific server-side validation error messages in feed form",
+    "description": "When an API returns a specific validation error (e.g., URL protocol required), ensure the error message is rendered clearly above the form.",
+    "file_path": "app/feed/page.js",
+    "how_to_verify": "Attempt to submit an invalid post without checking the rights confirmation. A clear, specific error banner should appear.",
+    "labels": ["easy", "bug", "ui"]
+  },
+  {
+    "id": 29,
+    "title": "feat(feed): Implement pagination or infinite scroll for study feed",
+    "description": "The Study Feed currently returns all matching resources in a single query. Implement pagination controls (Previous/Next) or an offset limit.",
+    "file_path": "lib/db.js",
+    "how_to_verify": "The feed should display a maximum of 10 posts per page with working pagination buttons.",
+    "labels": ["medium", "feature"]
+  },
+  {
+    "id": 30,
+    "title": "fix(chat): Automatically scroll Campus Lounge to newest message",
+    "description": "The chat message container does not automatically scroll to the bottom when new messages arrive or when the chat page loads.",
+    "file_path": "app/chat/page.js",
+    "how_to_verify": "Open /chat or send a message. The chat window should smoothly auto-scroll to the newest message at the bottom.",
+    "labels": ["easy", "bug", "ui"]
+  },
+  {
+    "id": 31,
+    "title": "fix(chat): Format Campus Lounge timestamps into relative time",
+    "description": "Chat timestamps currently show raw ISO strings. Format them into relative time (e.g. '5m ago', 'just now') or local time (e.g. '10:45 AM').",
+    "file_path": "app/chat/page.js",
+    "how_to_verify": "Chat messages should show compact, readable time like '11:20 AM' or '3m ago'.",
+    "labels": ["good first issue", "easy", "bug"]
+  },
+  {
+    "id": 32,
+    "title": "fix(ui): Fix pluralization grammar on profile post count",
+    "description": "When a student has authored exactly 1 post, the profile header shows '1 posts'. Fix pluralization to say '1 post'.",
+    "file_path": "app/u/[id]/page.js",
+    "how_to_verify": "View a profile with 1 post. It should display '1 post published to the student feed'.",
+    "labels": ["good first issue", "easy", "bug"]
+  },
+  {
+    "id": 33,
+    "title": "feat(feed): Add delete button for authors on their own posts in UI",
+    "description": "The backend API endpoint /api/posts/[id] supports post deletion by authors, but no delete button is rendered in the PostCard component.",
+    "file_path": "components/PostCard.js",
+    "how_to_verify": "When logged in as the author of a post, a 'Delete' button should appear and successfully remove the post.",
+    "labels": ["medium", "feature"]
+  },
+  {
+    "id": 34,
+    "title": "feat(feed): Add 'Copy Link' share button to study post cards",
+    "description": "Students cannot easily copy a direct shareable link to a study material. Add a 'Copy Link' button that writes the resource link or card URL to the clipboard.",
+    "file_path": "components/PostCard.js",
+    "how_to_verify": "Click 'Copy Link' on any post. A toast notification should confirm the link was copied to the clipboard.",
+    "labels": ["easy", "feature"]
+  },
+  {
+    "id": 35,
+    "title": "feat(events): Add 'Add to Google Calendar' button on event detail page",
+    "description": "Add an 'Add to Google Calendar' link on event detail pages so students can easily add campus sessions to their university schedule.",
+    "file_path": "app/events/[id]/page.js",
+    "how_to_verify": "Click 'Add to Google Calendar' on an event page. It should open Google Calendar with prefilled title, description, and time.",
+    "labels": ["medium", "feature"]
+  },
+  {
+    "id": 36,
+    "title": "feat(help): Enable filtering help requests by clicking tag chips",
+    "description": "Tags on Help Board questions are rendered as chips, but clicking a tag does not filter the question list by that tag.",
+    "file_path": "app/help/page.js",
+    "how_to_verify": "Click on a tag like '#pointers'. Only questions containing that tag should be displayed in the list.",
+    "labels": ["medium", "feature"]
+  },
+  {
+    "id": 37,
+    "title": "feat(feed): Improve 'For You' recommendation algorithm with semester and upvote weighting",
+    "description": "The 'For you' tab in lib/db.js only checks branch equality. Enhance the algorithm to prioritize the student's exact semester and sort by upvote score.",
+    "file_path": "lib/db.js",
+    "how_to_verify": "Posts matching both the user's branch and semester with high upvotes should rank at the top of the 'For You' tab.",
+    "labels": ["hard", "feature"]
+  },
+  {
+    "id": 38,
+    "title": "feat(ui): Add custom themed 404 Not Found page",
+    "description": "The app currently renders the default Next.js 404 page. Create a custom app/not-found.js with campus branding and quick links.",
+    "file_path": "app/not-found.js",
+    "how_to_verify": "Navigate to /non-existent-url. A clean, styled 404 page with navigation links back to the dashboard should appear.",
+    "labels": ["easy", "feature", "ui"]
+  },
+  {
+    "id": 39,
+    "title": "feat(seo): Add Open Graph social preview metadata tags",
+    "description": "Add Open Graph and Twitter card metadata (og:title, og:description, og:image) to app/layout.js for social sharing previews.",
+    "file_path": "app/layout.js",
+    "how_to_verify": "Inspect the rendered HTML head tag. Proper <meta property='og:title'> and related tags should be present.",
+    "labels": ["easy", "feature", "content"]
+  },
+  {
+    "id": 40,
+    "title": "feat(profile): Add inline bio editing modal directly on profile page",
+    "description": "Students cannot edit their bio or branch details from their profile page. Add an 'Edit Profile' button and modal for the logged-in user on /u/[id].",
+    "file_path": "app/u/[id]/page.js",
+    "how_to_verify": "Click 'Edit Profile' on your own profile. Update your bio and save; the changes should reflect immediately.",
+    "labels": ["medium", "feature"]
+  },
+  {
+    "id": 41,
+    "title": "feat(feed): Add 'Sort by Most Upvoted' option on Study Feed",
+    "description": "The feed is currently only sorted chronologically. Add a sort dropdown with options for 'Newest' and 'Most Upvoted'.",
+    "file_path": "app/feed/page.js",
+    "how_to_verify": "Select 'Most Upvoted' on /feed. Resources with the highest upvote counts should appear at the top.",
+    "labels": ["medium", "feature"]
+  },
+  {
+    "id": 42,
+    "title": "feat(contacts): Add real-time search input on Useful Contacts page",
+    "description": "The Useful Contacts directory lacks a search bar, requiring students to manually scroll through categories to find phone numbers or emails.",
+    "file_path": "app/contacts/page.js",
+    "how_to_verify": "Type 'Hostel' in the search box on /contacts. Only matching contacts should remain visible in real time.",
+    "labels": ["easy", "feature"]
+  },
+  {
+    "id": 43,
+    "title": "refactor(code): Remove duplicated event card markup across dashboard and events page",
+    "description": "Event card rendering logic is duplicated between app/page.js and app/events/page.js. Extract into a reusable components/EventCard.js component.",
+    "file_path": "components/EventCard.js",
+    "how_to_verify": "Events on both the home dashboard and events listing should be rendered via the extracted EventCard component.",
+    "labels": ["medium", "content"]
+  },
+  {
+    "id": 44,
+    "title": "refactor(code): Replace ambiguous single-letter variables x and d in lib/db.js",
+    "description": "In lib/db.js, post filtering logic uses unclear single-letter variable names. Refactor to descriptive names like 'filteredPosts'.",
+    "file_path": "lib/db.js",
+    "how_to_verify": "Inspect lib/db.js. All variables should have clear, self-documenting names.",
+    "labels": ["good first issue", "easy", "content"]
+  },
+  {
+    "id": 45,
+    "title": "test: Set up automated unit test runner (Vitest) and add first test suite",
+    "description": "The repository currently has no test framework configured. Set up Vitest or Jest and write unit tests for input sanitization helpers in lib/validate.js.",
+    "file_path": "package.json",
+    "how_to_verify": "Running 'npm test' should execute and pass unit test suites for lib/validate.js.",
+    "labels": ["hard", "tests"]
+  },
+  {
+    "id": 46,
+    "title": "docs: Add complete JSDoc annotations to lib/db.js data access functions",
+    "description": "Core data access functions in lib/db.js lack JSDoc comments explaining parameters and return types.",
+    "file_path": "lib/db.js",
+    "how_to_verify": "All exported functions in lib/db.js should have complete JSDoc blocks with @param and @returns documentation.",
+    "labels": ["good first issue", "easy", "docs"]
+  },
+  {
+    "id": 47,
+    "title": "content: Add missing Dean of Student Affairs and Sports Complex entries to contacts.json",
+    "description": "The placeholder contacts directory in data/contacts.json is missing key university departments including the Sports Complex and Dean of Student Affairs.",
+    "file_path": "data/contacts.json",
+    "how_to_verify": "data/contacts.json should include structured entries for Dean of Student Affairs and Sports Complex Facilities.",
+    "labels": ["good first issue", "easy", "content"]
+  }
+]

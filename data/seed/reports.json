@@ -1,0 +1,11 @@
+[
+  {
+    "id": "rep-501",
+    "reporter_id": "user-demo-priya",
+    "target_type": "chat_message",
+    "target_id": "chat-405",
+    "reason": "Testing the report button functionality during quality assurance",
+    "status": "pending",
+    "created_at": "2026-10-21T11:00:00Z"
+  }
+]

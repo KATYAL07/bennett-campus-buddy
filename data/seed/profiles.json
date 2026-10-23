@@ -1,0 +1,62 @@
+[
+  {
+    "id": "user-arnav-admin",
+    "email": "arnav@bennett.edu.in",
+    "name": "Arnav Katyal",
+    "branch": "CSE",
+    "semester": 5,
+    "bio": "Tech Head at GDG On Campus, Bennett University. Passionate about open source and systems.",
+    "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+    "role": "admin",
+    "is_banned": false,
+    "created_at": "2026-09-01T10:00:00Z"
+  },
+  {
+    "id": "user-demo-priya",
+    "email": "priya.sharma@bennett.edu.in",
+    "name": "Priya Sharma",
+    "branch": "CSE",
+    "semester": 3,
+    "bio": "2nd year CSE. Exploring Algorithms, Web Dev, and Competitive Programming.",
+    "avatar_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+    "role": "student",
+    "is_banned": false,
+    "created_at": "2026-09-10T11:20:00Z"
+  },
+  {
+    "id": "user-demo-rohit",
+    "email": "rohit.verma@bennett.edu.in",
+    "name": "Rohit Verma",
+    "branch": "ECE",
+    "semester": 3,
+    "bio": "Embedded systems enthusiast, robotics lead at college robotics club.",
+    "avatar_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+    "role": "student",
+    "is_banned": false,
+    "created_at": "2026-09-12T14:15:00Z"
+  },
+  {
+    "id": "user-demo-ananya",
+    "email": "ananya.singh@bennett.edu.in",
+    "name": "Ananya Singh",
+    "branch": "CSE",
+    "semester": 1,
+    "bio": "1st year CSE student. Learning C programming and discrete mathematics.",
+    "avatar_url": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&auto=format&fit=crop&q=80",
+    "role": "student",
+    "is_banned": false,
+    "created_at": "2026-09-20T09:30:00Z"
+  },
+  {
+    "id": "user-demo-dev",
+    "email": "dev.patel@bennett.edu.in",
+    "name": "Dev Patel",
+    "branch": "ME",
+    "semester": 5,
+    "bio": "Mechanical engineering junior. CAD/CAM enthusiast and racing team designer.",
+    "avatar_url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+    "role": "student",
+    "is_banned": false,
+    "created_at": "2026-09-22T16:45:00Z"
+  }
+]

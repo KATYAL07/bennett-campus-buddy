@@ -1,0 +1,46 @@
+[
+  {
+    "id": "evt-201",
+    "title": "Hacktoberfest 2026: Open Source Kickoff & First PR Workshop",
+    "club": "GDG On Campus Bennett University",
+    "date_time": "2026-10-25T17:30:00Z",
+    "venue": "Auditorium 1, Ground Floor",
+    "description": "Learn Git, GitHub, branching strategies, and how to submit your first open source contribution to Campus Buddy! Swag and certificates for active participants.",
+    "category": "Workshop",
+    "rsvps": ["user-arnav-admin", "user-demo-priya", "user-demo-rohit", "user-demo-ananya"],
+    "created_at": "2026-10-10T12:00:00Z"
+  },
+  {
+    "id": "evt-202",
+    "title": "Google Cloud & Generative AI Hands-on Lab",
+    "club": "GDG On Campus Bennett University",
+    "date_time": "2026-10-28T16:00:00Z",
+    "venue": "Computer Lab 402, Block A",
+    "description": "Deploy machine learning pipelines and build multimodal web applications using Gemini APIs and Google Cloud Run. Hands-on coding session.",
+    "category": "Tech Talk",
+    "rsvps": ["user-demo-priya", "user-demo-dev"],
+    "created_at": "2026-10-12T14:30:00Z"
+  },
+  {
+    "id": "evt-203",
+    "title": "Autonomous Robotics & Microcontroller Showcase",
+    "club": "Robotics Society",
+    "date_time": "2026-11-02T15:00:00Z",
+    "venue": "Student Activity Centre Hall B",
+    "description": "Live demonstration of line-follower robots, drone flight algorithms, and IoT sensors built by ECE and ME students.",
+    "category": "Club Activity",
+    "rsvps": ["user-demo-rohit", "user-demo-dev"],
+    "created_at": "2026-10-14T09:15:00Z"
+  },
+  {
+    "id": "evt-204",
+    "title": "Bennett Annual 24-Hour Hackathon 2026",
+    "club": "ACM Student Chapter",
+    "date_time": "2026-11-14T09:00:00Z",
+    "venue": "Central Library Multi-purpose Hall",
+    "description": "Overnight hackathon with tracks in Healthcare, FinTech, Campus Utilities, and EdTech. Industry mentors and prize pool.",
+    "category": "Hackathon",
+    "rsvps": ["user-arnav-admin", "user-demo-priya", "user-demo-rohit", "user-demo-ananya", "user-demo-dev"],
+    "created_at": "2026-10-15T18:00:00Z"
+  }
+]

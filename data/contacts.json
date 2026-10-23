@@ -1,0 +1,90 @@
+[
+  {
+    "id": "c-dept-cse",
+    "category": "Academic Departments",
+    "name": "Department of Computer Science & Engineering",
+    "role": "HOD Office & Academic Inquiries",
+    "email": "cse.office@placeholder-bennett.edu.in",
+    "phone": "+91 120 000 0101",
+    "location": "Academic Block A, 3rd Floor, Room A-312",
+    "hours": "Mon-Fri: 9:00 AM - 5:00 PM",
+    "note": "Placeholder entry - replace with real university contact info"
+  },
+  {
+    "id": "c-dept-ece",
+    "category": "Academic Departments",
+    "name": "Department of Electronics & Communication",
+    "role": "Department Coordinator",
+    "email": "ece.office@placeholder-bennett.edu.in",
+    "phone": "+91 120 000 0102",
+    "location": "Academic Block A, 2nd Floor, Room A-205",
+    "hours": "Mon-Fri: 9:00 AM - 5:00 PM",
+    "note": "Placeholder entry - replace with real university contact info"
+  },
+  {
+    "id": "c-dept-me",
+    "category": "Academic Departments",
+    "name": "Department of Mechanical Engineering",
+    "role": "Department Coordinator",
+    "email": "me.office@placeholder-bennett.edu.in",
+    "phone": "+91 120 000 0103",
+    "location": "Workshop Block, Ground Floor",
+    "hours": "Mon-Fri: 9:00 AM - 5:00 PM",
+    "note": "Placeholder entry - replace with real university contact info"
+  },
+  {
+    "id": "c-helpdesk-it",
+    "category": "IT & Campus Support",
+    "name": "Campus IT Helpdesk",
+    "role": "Wi-Fi, ERP, Student Portal & Email Support",
+    "email": "ithelpdesk@placeholder-bennett.edu.in",
+    "phone": "+91 120 000 0201",
+    "location": "Central Library Building, Ground Floor",
+    "hours": "Mon-Sat: 8:30 AM - 7:00 PM",
+    "note": "Placeholder entry - replace with real university contact info"
+  },
+  {
+    "id": "c-hostel-warden",
+    "category": "Hostel Administration",
+    "name": "Chief Warden Office",
+    "role": "Hostel Accommodations & Leave Approvals",
+    "email": "warden.office@placeholder-bennett.edu.in",
+    "phone": "+91 120 000 0301",
+    "location": "Hostel Block B, Office Suite 1",
+    "hours": "Daily: 8:00 AM - 8:00 PM (Emergency 24x7)",
+    "note": "Placeholder entry - replace with real university contact info"
+  },
+  {
+    "id": "c-library-central",
+    "category": "Library Services",
+    "name": "Learning Resource Centre (Central Library)",
+    "role": "Circulation Desk, Book Reservations, Digital Subscriptions",
+    "email": "library@placeholder-bennett.edu.in",
+    "phone": "+91 120 000 0401",
+    "location": "Central Library Building, Floors 1 & 2",
+    "hours": "Mon-Sun: 8:00 AM - 12:00 AM (Midnight)",
+    "note": "Placeholder entry - replace with real university contact info"
+  },
+  {
+    "id": "c-security-gate",
+    "category": "Safety & Security",
+    "name": "Campus Main Gate Security Control",
+    "role": "Emergency Response & Visitor Assistance",
+    "email": "security@placeholder-bennett.edu.in",
+    "phone": "+91 120 000 0911",
+    "location": "Campus Main Entrance Gate No. 1",
+    "hours": "Open 24 Hours / 7 Days",
+    "note": "Placeholder entry - replace with real university contact info"
+  },
+  {
+    "id": "c-medical-centre",
+    "category": "Health & Wellness",
+    "name": "Campus Medical & Wellness Centre",
+    "role": "First Aid, Doctor Consultation, Ambulance",
+    "email": "healthcenter@placeholder-bennett.edu.in",
+    "phone": "+91 120 000 0999",
+    "location": "Student Activity Centre, Ground Floor",
+    "hours": "Resident Doctor available 24x7",
+    "note": "Placeholder entry - replace with real university contact info"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "chat-401",
+    "author_id": "user-arnav-admin",
+    "message": "Welcome everyone to Campus Buddy for Hacktoberfest 2026! Check out the issues tab on GitHub to grab your first issue.",
+    "created_at": "2026-10-21T09:00:00Z"
+  },
+  {
+    "id": "chat-402",
+    "author_id": "user-demo-priya",
+    "message": "Hey everyone, anyone working on the DSA notes filters issue? Happy to collaborate!",
+    "created_at": "2026-10-21T09:15:00Z"
+  },
+  {
+    "id": "chat-403",
+    "author_id": "user-demo-rohit",
+    "message": "The demo mode makes it super easy to test PRs locally without needing any API keys.",
+    "created_at": "2026-10-21T09:30:00Z"
+  },
+  {
+    "id": "chat-404",
+    "author_id": "user-demo-ananya",
+    "message": "Just submitted my first pull request for the typo fix! Thanks for the workshop guidance.",
+    "created_at": "2026-10-21T10:05:00Z"
+  },
+  {
+    "id": "chat-405",
+    "author_id": "user-demo-dev",
+    "message": "Remember to keep all discussions respectful and on-topic in the lounge.",
+    "created_at": "2026-10-21T10:45:00Z"
+  }
+]
