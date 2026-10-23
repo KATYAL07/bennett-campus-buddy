@@ -32,7 +32,7 @@ export default function Footer() {
               Campus Lounge
             </Link>
             <a
-              href="https://github.com/KATYAL07/campus-buddy"
+              href="https://github.com/KATYAL07/bennett-campus-buddy"
               target="_blank"
               rel="noreferrer"
               className="text-emerald-800 font-semibold hover:underline"

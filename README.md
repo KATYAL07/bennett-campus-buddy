@@ -4,7 +4,7 @@
 > Maintained by **Arnav Katyal** (Tech Head, GDG On Campus at Bennett University).  
 > Built for Bennett University students participating in **Hacktoberfest 2026**.
 
-[![CI](https://github.com/KATYAL07/campus-buddy/actions/workflows/ci.yml/badge.svg)](https://github.com/KATYAL07/campus-buddy/actions/workflows/ci.yml)
+[![CI](https://github.com/KATYAL07/bennett-campus-buddy/actions/workflows/ci.yml/badge.svg)](https://github.com/KATYAL07/bennett-campus-buddy/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENSE)
 [![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest-2026-amber.svg)](https://hacktoberfest.com)
 
@@ -28,8 +28,8 @@ Campus Buddy features a built-in **In-Memory Demo Mode**. You do **NOT** need an
 
 ```bash
 # 1. Clone your fork of the repository
-git clone https://github.com/YOUR_USERNAME/campus-buddy.git
-cd campus-buddy
+git clone https://github.com/YOUR_USERNAME/bennett-campus-buddy.git
+cd bennett-campus-buddy
 
 # 2. Install dependencies
 npm install

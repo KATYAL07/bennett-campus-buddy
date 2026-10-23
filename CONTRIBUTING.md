@@ -8,7 +8,7 @@ Welcome to the **Campus Buddy** open source project for **Hacktoberfest 2026** a
 
 To ensure a fair, educational, and smooth Hacktoberfest experience, please read and follow these rules:
 
-1. **Comment and Get Assigned First:** Browse the repository [Issues](https://github.com/KATYAL07/campus-buddy/issues). Find an issue you want to solve, leave a polite comment expressing your interest, and **wait until a maintainer formally assigns you** to the issue before writing code. Do not open PRs for issues assigned to other students.
+1. **Comment and Get Assigned First:** Browse the repository [Issues](https://github.com/KATYAL07/bennett-campus-buddy/issues). Find an issue you want to solve, leave a polite comment expressing your interest, and **wait until a maintainer formally assigns you** to the issue before writing code. Do not open PRs for issues assigned to other students.
 2. **One Issue per Pull Request:** Keep your pull requests small and focused on a single issue. Do not combine multiple unrelated fixes into one PR.
 3. **Your Own Work Only:** All commits must be written by you. Copy-pasted PRs, automated AI spam submissions, and whitespace-only edits will be closed, flagged with the `spam` / `invalid` label, and disqualified from Hacktoberfest.
 4. **Zero Secrets Required:** You do **NOT** need any API keys or secrets to develop locally. The app runs completely in-memory in Demo Mode! **NEVER commit any `.env`, `.env.local`, or secret tokens.** Any PR containing secrets will be rejected immediately.
@@ -21,19 +21,19 @@ To ensure a fair, educational, and smooth Hacktoberfest experience, please read 
 Follow these exact steps from your computer terminal:
 
 ### Step 1: Fork the Repository
-Click the **Fork** button in the top-right corner of the [Campus Buddy repository](https://github.com/KATYAL07/campus-buddy). This creates a copy under your personal GitHub profile (`github.com/YOUR_USERNAME/campus-buddy`).
+Click the **Fork** button in the top-right corner of the [Campus Buddy repository](https://github.com/KATYAL07/bennett-campus-buddy). This creates a copy under your personal GitHub profile (`github.com/YOUR_USERNAME/bennett-campus-buddy`).
 
 ### Step 2: Clone Your Fork
 Open your terminal (PowerShell, Git Bash, or Terminal) and clone your fork to your computer:
 ```bash
-git clone https://github.com/YOUR_USERNAME/campus-buddy.git
-cd campus-buddy
+git clone https://github.com/YOUR_USERNAME/bennett-campus-buddy.git
+cd bennett-campus-buddy
 ```
 
 ### Step 3: Set Up the Upstream Remote
 Connect your local clone to the main repository so you can sync updates:
 ```bash
-git remote add upstream https://github.com/KATYAL07/campus-buddy.git
+git remote add upstream https://github.com/KATYAL07/bennett-campus-buddy.git
 ```
 
 ### Step 4: Create a New Git Branch
@@ -80,7 +80,7 @@ git push -u origin fix-events-heading-typo
 ```
 
 ### Step 10: Open Your Pull Request
-1. Go to the original [Campus Buddy repository](https://github.com/KATYAL07/campus-buddy).
+1. Go to the original [Campus Buddy repository](https://github.com/KATYAL07/bennett-campus-buddy).
 2. You will see a banner saying *"fix-events-heading-typo had recent pushes"*. Click **Compare & pull request**.
 3. Fill out the pull request template:
    - Link your issue: `Fixes #8`
